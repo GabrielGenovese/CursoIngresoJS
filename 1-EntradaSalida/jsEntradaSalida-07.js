@@ -2,7 +2,10 @@
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt),realizar la operación correcta y 
 mostrar el resulto por medio de "ALERT"
-ej.: "la Resta es 750"*/ 
+ej.: "la Resta es 750"
+
+Alumno = Genovese Gabriel Div H
+*/ 
 
 function sumar()
 {	
@@ -12,9 +15,9 @@ function sumar()
 
 
 	numeroUno = document.getElementById('txtIdNumeroUno').value;
-	numeroUno = parseInt(numeroUno);
-
 	numeroDos = document.getElementById('txtIdNumeroDos').value;
+
+	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
 
 	suma = numeroUno + numeroDos;
@@ -31,9 +34,9 @@ function restar()
 
 
 	numeroUno = document.getElementById('txtIdNumeroUno').value;
-	numeroUno = parseInt(numeroUno);
-
 	numeroDos = document.getElementById('txtIdNumeroDos').value;
+
+	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
 
 	resta = numeroUno - numeroDos;
@@ -50,9 +53,9 @@ function multiplicar()
 
 
 	numeroUno = document.getElementById('txtIdNumeroUno').value;
-	numeroUno = parseInt(numeroUno);
-
 	numeroDos = document.getElementById('txtIdNumeroDos').value;
+
+	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
 
 	multiplicacion = numeroUno * numeroDos;
@@ -69,10 +72,11 @@ function dividir()
 
 	
 	numeroUno = document.getElementById('txtIdNumeroUno').value;
-	numeroUno = parseInt(numeroUno);
-
 	numeroDos = document.getElementById('txtIdNumeroDos').value;
+	
+	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
+
 
 	division = numeroUno / numeroDos;
 
