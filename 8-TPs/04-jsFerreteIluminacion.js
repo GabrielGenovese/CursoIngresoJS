@@ -98,7 +98,7 @@ function CalcularPrecio ()
     
 }
 
-    //Todo lo que esta en comentario en los if es inecesario, 
-    //ya que solo hace falta dejar la variable q cambia. 
-    //Ej: en "descuento" solo cambia el numero a multiplicar
+//Todo lo que esta en comentario en los if es inecesario, 
+//ya que solo hace falta dejar la variable q cambia. 
+//Ej: en "descuento" solo cambia el numero a multiplicar
     
