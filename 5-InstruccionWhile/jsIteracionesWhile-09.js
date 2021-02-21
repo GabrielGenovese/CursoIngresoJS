@@ -8,14 +8,23 @@ function mostrar()
 	var numeroMaximo;
 	var numeroMinimo;
 	var respuesta;
+
+
 	//iniciar variables
-	banderaDelPrimero="es el primero";
-	respuesta='si';
-	while(respuesta=="si")
+	banderaDelPrimero = "es el primero";
+	respuesta = 'si';
+
+
+	while(respuesta == "si")
 	{
-		
-		respuesta=prompt("desea continuar?");
+
+
+		respuesta = prompt("¿Desea continuar? (si/no)","si");
+		respuesta = respuesta.toLowerCase();
 	}
-	txtIdMaximo.value=numeroMaximo;
-	txtIdMinimmo.value=numeroMinimo;
+
+
+
+	txtIdMaximo.value = numeroMaximo;
+	txtIdMinimmo.value = numeroMinimo;
 }//FIN DE LA FUNCIÓN
